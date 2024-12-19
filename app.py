@@ -161,7 +161,5 @@ def logout():
         driver = None
     return redirect(url_for('home'))
 
-
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
-  
+    app.run(port=5000, debug=True)  
